@@ -1,0 +1,5 @@
+-- Monto y unidades vendidas por trimestre (jerarquía Calendario)
+SELECT
+  { [Measures].[Ventas Monto], [Measures].[Ventas Unidades] } ON COLUMNS,
+  NON EMPTY [Tiempo].[Calendario].[Trimestre].MEMBERS ON ROWS
+FROM [Ventas]
