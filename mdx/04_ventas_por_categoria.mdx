@@ -1,0 +1,5 @@
+-- Monto de ventas por categoría de producto
+SELECT
+  [Measures].[Ventas Monto] ON COLUMNS,
+  NON EMPTY [Producto].[CategoriaProductos].[Categoria].MEMBERS ON ROWS
+FROM [Ventas]
