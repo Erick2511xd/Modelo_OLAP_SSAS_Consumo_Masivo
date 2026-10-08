@@ -1,0 +1,5 @@
+-- Monto total de ventas por año
+SELECT
+  [Measures].[Ventas Monto] ON COLUMNS,
+  [Tiempo].[Anio].[Anio].MEMBERS ON ROWS
+FROM [Ventas]
