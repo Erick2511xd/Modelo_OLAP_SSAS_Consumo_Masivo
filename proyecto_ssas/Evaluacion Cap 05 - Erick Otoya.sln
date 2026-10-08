@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Evaluacion Cap 05 - Erick Otoya", "Evaluacion Cap 05 - Erick Otoya\Evaluacion Cap 05 - Erick Otoya.dwproj", "{E5A8686A-7138-136E-60F3-E5CE35492F02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5A8686A-7138-136E-60F3-E5CE35492F02}.Development|Default.ActiveCfg = Development
+		{E5A8686A-7138-136E-60F3-E5CE35492F02}.Development|Default.Build.0 = Development
+		{E5A8686A-7138-136E-60F3-E5CE35492F02}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {358B3ACA-CDFB-4CA3-B417-7550E5EC4BA1}
+	EndGlobalSection
+EndGlobal
