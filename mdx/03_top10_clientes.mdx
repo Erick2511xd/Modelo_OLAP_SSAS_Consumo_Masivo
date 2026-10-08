@@ -1,0 +1,9 @@
+-- Los 10 clientes con mayor monto de ventas
+SELECT
+  [Measures].[Ventas Monto] ON COLUMNS,
+  TOPCOUNT(
+    [Cliente].[Cliente].[Cliente].MEMBERS,
+    10,
+    [Measures].[Ventas Monto]
+  ) ON ROWS
+FROM [Ventas]
